@@ -1,6 +1,6 @@
 <?
 	
-	require_once('controllers/PostController.php');
+	require_once('controllers/homeController.php');
 
 	$post = new PostController();
 	$post->getPost();

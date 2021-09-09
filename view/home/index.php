@@ -5,6 +5,7 @@
 	<title>ウェブサイトセール  [HUY - LUC ] </title>
 </head>
 <body>
+	<?echo $index;?>
 	<p>OK</p>
 </body>
 </html>
