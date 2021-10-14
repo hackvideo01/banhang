@@ -5,7 +5,13 @@
 	<title>ウェブサイトセール  [HUY - LUC ] </title>
 </head>
 <body>
-	<?echo $index;?>
-	<p>OK</p>
+	<?
+		// use Normal 
+		// $post = new PostModel();
+		// $post->set_ten('Luc');
+		// echo $post->get_ten();
+	?>
+	<img src="./public/images/body-web-sale.png" alt="">
 </body>
 </html>
+

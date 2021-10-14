@@ -1,4 +1,6 @@
 
-	<h1>FOOTER</h1>
 </body>
+<footer class="footer">
+	<img src="./public/images/footer.png" alt="">
+</footer>
 </html>

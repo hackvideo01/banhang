@@ -2,14 +2,34 @@
 
 class PostModel {
 
-	public function getPost() {
+	protected static $name;
+	public $lastName;
 
-		require_once('config/connect_DB.php');
+	// public function __construct($name,$lastName){
+	// 	$this->name = $name;
+	// 	$this->lastName = $lastName;
+	// }
 
-		$db = new MySQLDatabase();
-		$db->db_connect();
+	// public function __destruct(){
+	// 	echo " Destroy";
+	// }
 
+	public static function set_ten($name){
+		PostModel::$name = $name;
+	}
+
+	public static function get_ten(){
+		return self::$name;
+	}
+
+	public static function all($name){
+		PostModel::set_ten($name);
+		return PostModel::get_ten();
 	}
 }
+
+// class ten extends PostModel{
+
+// }
 
 ?>

@@ -3,5 +3,7 @@
 <head>
 	<meta charset="utf-8">
 </head>
+<header>
+	<img src="./public/images/header.png">
+</header>
 <body>
-	<h1>HEADER</h1>
